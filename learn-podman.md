@@ -159,4 +159,8 @@ Search for the container event on the container host log, using the following co
 journalctl | grep "Testing logging"
 ```
 
-You should see the 
+You should see the following:
+
+```shell
+May 26 03:28:42 ip-10-0-2-6.ec2.internal root[25499]: Testing logging to the host
+```
