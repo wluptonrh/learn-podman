@@ -16,7 +16,7 @@
 ## Exercise 1: Pulling and Running Containers
 
 ### Launching our first container
-This command will pull down the RHEL UBI container image. I've included a couple of options so we can access the container interactively. Those options are broken down below:
+This command will pull down the RHEL UBI container image. We'll include a number of options so we can access the container interactively. Those options are broken down below:
 ```shell 
 podman run -it --name mycontainer registry.access.redhat.com/ubi9:latest /bin/bash
 ```
