@@ -41,7 +41,7 @@ Since the container is no longer running our interactive shell, it has no reason
 You'll notice the container indicates a status of "Exited"
 
 We can also inspect the images stored locally on our system by running
-`podman images`. You notice our UBI image is now stored locally on our system after running the first command
+`podman images`. You'll notice our UBI image is now present.
 
 
 
